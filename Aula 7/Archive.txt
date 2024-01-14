@@ -1,0 +1,3 @@
+Aqui você está aprendendo
+a ler arquivo
+através do Python

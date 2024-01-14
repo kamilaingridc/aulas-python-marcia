@@ -1,0 +1,5 @@
+frase = str(input("Digite a frase:"))
+antiga = str(input("Digite a palavra antiga: "))
+nova = str(input("Digite a palavra nova: "))
+f = frase.replace(antiga,nova)
+print(f)

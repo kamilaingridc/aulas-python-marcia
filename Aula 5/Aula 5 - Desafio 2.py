@@ -1,0 +1,8 @@
+capital = float(input("Digite o capital: "))
+print(f'O capital é R$: {capital}.')
+juros = float(input("Digite a taxa de juros (decimais): "))
+print(f'A taxa de juros inserida é de {juros}%.')
+tempo = int(input("Digite o tempo (anos): "))
+print(f'O tempo é de {tempo} anos.')
+montante = capital * ((1 + juros) ** tempo)
+print(f'O valor do montante é de R${montante:.02f}.')

@@ -1,0 +1,5 @@
+N1 = float(input("Digite o primeiro número:"))
+N2 = float(input("Digite o segundo número:"))
+N3 = float(input("Digite o terceiro número:"))
+media_p = (N1*2 + N2*3 + N3*5) / (2 + 3 + 5)
+print(media_p)

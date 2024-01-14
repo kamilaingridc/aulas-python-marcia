@@ -1,0 +1,8 @@
+num = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+print(num == num2)
+print(num != num2)
+print(num > num2)
+print(num >= num2)
+print(num < num2)
+print(num <= num2)
